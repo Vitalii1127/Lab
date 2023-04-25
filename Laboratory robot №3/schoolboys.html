@@ -1,15 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Список учнів</title>
+	<title>Таблиця</title>
 	<style>
 		table {
 			border-collapse: collapse;
 			width: 100%;
-			border: 1px solid black;
-			margin-bottom: 20px;
+			opacity: 0.8;
 		}
 
 		table th, table td {
-			padding: 10
-        }
+			padding: 10px;
+			text-align: center;
+		}
+
+		table th {
+			font-weight: bold;
+			border-bottom: 2px solid black;
+		}
+
+		table td {
+			border: none;
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th>№</th>
+				<th>Фото</th>
+				<th>П.І.Б.</th>
+                <th>Дата народженя</th>
+                <th>Gmail</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td><img src="..\Laboratory robot №3\Foto\1.jpg" alt="Фото учня 1" width="50"></td>
+				<td><a href="D:\Users\Vitalii.HOME-PC\Documents\GitHub\lab\Laboratory robot №3\schoolboys\Недихалов.html">Недихалов Олексій</a></td>
+                <td>Дата народженя</td>
+                <td>nedyhalov@ilitman.ukr.education</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td><img src="../Laboratory robot №3/Foto/2.jpg" alt="Фото учня 2" width="50"></td>
+				<td><a href="D:\Users\Vitalii.HOME-PC\Documents\GitHub\lab\Laboratory robot №3\schoolboys\Муренко.html">Муренко Єкатерина</a></td>
+                <td>31.10.2006</td>
+                <td>murenko@ilitman.ukr.education</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td><img src="../Laboratory robot №3/Foto/3.jpg" alt="Фото учня 3" width="50"></td>
+				<td><a href="D:\Users\Vitalii.HOME-PC\Documents\GitHub\lab\Laboratory robot №3\schoolboys\Ворошилова.html">Ворошилова Арина</a></td>
+                <td>Дата народженя</td>
+                <td>vorochylova@ilitman.ukr.education</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td><img src="..\Laboratory robot №3\Foto\4.jpg" alt="Фото учня 4" width="50"></td>
+				<td><a href="D:\Users\Vitalii.HOME-PC\Documents\GitHub\lab\Laboratory robot №3\schoolboys\Онищенко.html">Онищенко Максим</a></td>
+                <td>12.08.06</td>
+                <td>onyshchenko@ilitman.ukr.education</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td><img src="..\Laboratory robot №3\Foto\5.jpg" alt="Фото учня 5" width="50"></td>
+				<td><a href="D:\Users\Vitalii.HOME-PC\Documents\GitHub\lab\Laboratory robot №3\schoolboys\Селезньов.html">Селезньов Єгор</a></td>
+                <td>01.08.2006</td>
+                <td>seleznov@ilitman.ukr.education</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
