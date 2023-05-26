@@ -45,14 +45,14 @@ body {
     background: #1baf5d;
     float: left;
     width: 10%;
-    height: 400px;
+    height: 1250px;
     border-radius: 10px;
     }
     #content {
     background: gray;
     float: left;
     width: 90%;
-    height: 400px;
+    height: 1250px;
     border-radius: 10px;
     }
     #clear {
@@ -61,7 +61,7 @@ body {
     footer {
     background: #ff0404;
     color: white;
-    height: 210px;
+    height: 305px;
     width: 100%;
     border-radius: 10px;
     }
